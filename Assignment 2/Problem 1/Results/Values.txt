@@ -1,0 +1,19 @@
+a)
+Value of S_tau with tau=1: 0.043033962607515394
+Value of S_tau with tau=2: 0.04772255656011384
+Value of S_tau with tau=3: 0.04958049886621315
+Value of S_tau with tau=4: 0.04743764172335601
+Value of S_tau with tau=5: 0.04654824892920131
+Value of S_tau with tau=6: 0.067437641723356
+Value of S_tau with tau=7: 0.047469135802469135
+Value of S_tau with tau=8: 0.05479891043102066
+Value of S_tau with tau=9: 0.05561224489795917
+Value of S_tau with tau=10: 0.05215419501133786
+b)
+Value of best 0-th key letter: G with value: 0.06397
+Value of best 1-th key letter: E with value: 0.0639247619047619
+Value of best 2-th key letter: H with value: 0.06286714285714286
+Value of best 3-th key letter: E with value: 0.06442904761904762
+Value of best 4-th key letter: I with value: 0.06129138755980861
+Value of best 5-th key letter: M with value: 0.06434306220095692
+
