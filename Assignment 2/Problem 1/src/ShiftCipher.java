@@ -28,4 +28,22 @@ public class ShiftCipher {
 		}
 		return result.toString();
 	}
+	
+	public char applyInverse(char c) {
+		char result = (char)(c - shift);
+		if(result < 'A') return (char)(result + 26);
+		return result;
+	}
+	
+	public String applyInverse(String s) {
+		StringBuilder result = new StringBuilder();
+		for(char c : s.toCharArray()) {
+			if(c >= 'A' && c <= 'Z') {
+				result.append(this.applyInverse(c));
+			} else {
+				result.append(c);
+			}
+		}
+		return result.toString();
+	}
 }
